@@ -1,8 +1,5 @@
 # Python Scripts 🐍
 
-This repository contains a collection of **Python scripts** created to demonstrate my
-programming skills, problem-solving ability, and understanding of Python concepts.
-The projects are organized from **basic to advanced level**, showing my learning
-progression and hands-on experience.
+A collection of standalone Python scripts designed to automate everyday tasks and workflows. Each script in this repository is self-contained and focused on solving a specific problem—ranging from SSH automation and system operations to utility tools and quick productivity helpers.
 
-! All content in this repo, including all scripts, is owned by ME. Unauthorized use is prohibited.
+This repo serves as a growing toolbox of reusable automation scripts that can be easily adapted or integrated into larger projects.
