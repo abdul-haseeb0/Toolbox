@@ -24,7 +24,7 @@ Each script is self-contained and can be used independently.
 Clone the repository and run the desired script:
 
 ```bash
-git clone https://github.com/<your-username>/Toolbox.git
+git clone https://github.com/abdul-haseeb0/Toolbox.git
 cd Toolbox
 python script_name.py
 ```
