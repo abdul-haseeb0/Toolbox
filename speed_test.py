@@ -1,20 +1,21 @@
 import speedtest
-from colorama import Fore
+from colorama import Fore, Style
+
 
 def speed_test():
     print("Initialising Speed Test (This may take a while)")
     st = speedtest.Speedtest()
 
-    print(Fore.CYAN, "[+] Getting Best Server")
+    print(Fore.GREEN, "[+] Getting Best Server", Style.RESET_ALL)
     st.get_best_server()
 
-    print(Fore.CYAN, "[+] Testing Download Speed")
+    print(Fore.MAGENTA, "[+] Testing Download Speed", Style.RESET_ALL)
     download_speed = st.download()
 
-    print(Fore.CYAN, "[+] Testing Upload Speed")
+    print(Fore.MAGENTA, "[+] Testing Upload Speed", Style.RESET_ALL)
     upload_speed = st.upload()
 
-    print(Fore.CYAN, "[+] Pinging")
+    print(Fore.YELLOW, "[+] Pinging", Style.RESET_ALL)
     ping_result = st.results.ping
 
     download_mbps = download_speed / 1024 / 1024

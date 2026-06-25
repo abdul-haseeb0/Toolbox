@@ -9,7 +9,7 @@ qr = qrcode.QRCode(
 )
 
 # Add your text or URL
-data = "https://www.example.com"
+data = input("Enter URL (www.example.com)")
 qr.add_data(data)
 qr.make(fit=True)
 
